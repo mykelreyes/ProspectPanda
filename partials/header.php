@@ -31,9 +31,6 @@
                         </div>
                         <div class="navbar__options">
                            <div class="navbar__mobile-options d-none d-sm-flex">
-                              <button id="themeToggle" class="theme-toggle-btn" aria-label="toggle theme" title="Toggle Dark/Light Mode">
-                                 <i class="fa-solid fa-sun"></i>
-                              </button>
                               <a href="contact.php" class="btn btn--secondary">Get Started</a>
                            </div>
                            <button class="open-mobile-menu d-flex d-xl-none" aria-label="toggle mobile menu">

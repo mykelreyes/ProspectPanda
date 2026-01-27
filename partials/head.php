@@ -30,6 +30,4 @@
    <!-- custom css -->
    <link rel="stylesheet" href="assets/css/custom.css">
    <?php echo (isset($css) ? $css   : '')?>
-   <!-- theme toggle script (load early to prevent flash) -->
-   <script src="assets/js/theme-toggle.js"></script>
 </head>
