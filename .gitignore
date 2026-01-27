@@ -1,0 +1,30 @@
+# Temporary and system files
+nul
+tmpclaude-*
+*.tmp
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Reference/Sample files (excluded per user preference)
+Sample Website/
+
+# IDE and editor configs
+.vscode/
+.idea/
+*.sublime-*
+
+# Environment files (future-proofing)
+.env.local
+.env.*.local
+.env
+
+# Node modules (if build tools added in future)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs (future-proofing)
+dist/
+build/

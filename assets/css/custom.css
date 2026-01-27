@@ -1,0 +1,497 @@
+/**
+ * ProspectPanda Custom Styles
+ * Additional styles for CRM website
+ */
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+    background: transparent;
+    border: 2px solid var(--border-light);
+    color: var(--primary-color-1, #fff);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.theme-toggle-btn:hover {
+    background: var(--primary-color-1, #7B52F4);
+    border-color: var(--primary-color-1, #7B52F4);
+    color: #fff;
+    transform: rotate(20deg) scale(1.1);
+}
+
+.theme-toggle-btn:active {
+    transform: rotate(20deg) scale(0.95);
+}
+
+.theme-toggle-btn i {
+    transition: all 0.3s ease;
+}
+
+/* Theme toggle button styling for light mode */
+body.home-light .theme-toggle-btn {
+    border-color: rgba(0, 0, 0, 0.2);
+    color: var(--primary-color-1, #7B52F4);
+}
+
+body.home-light .theme-toggle-btn:hover {
+    background: var(--primary-color-1, #7B52F4);
+    border-color: var(--primary-color-1, #7B52F4);
+    color: #fff;
+}
+
+/* Mobile responsive */
+@media (max-width: 575px) {
+    .theme-toggle-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+}
+
+/* Animation for theme transition */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Logo transition and sizing */
+.navbar__logo img {
+    max-height: 60px;
+    width: auto;
+    transition: opacity 0.2s ease;
+}
+
+.logo img {
+    max-height: 80px;
+    width: auto;
+    transition: opacity 0.2s ease;
+}
+
+/* Mobile logo sizing */
+@media (max-width: 768px) {
+    .navbar__logo img {
+        max-height: 45px;
+    }
+
+    .logo img {
+        max-height: 60px;
+    }
+}
+
+/* ========== Pricing Cards ========== */
+.pricing-card {
+    background: var(--bg-white, #1a1a1a);
+    border: 2px solid var(--border-light);
+    border-radius: 20px;
+    padding: 40px 30px;
+    height: 100%;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary-color-1, #7B52F4);
+    box-shadow: 0 10px 40px rgba(123, 82, 244, 0.3);
+}
+
+.pricing-card--featured {
+    border-color: var(--primary-color-1, #7B52F4);
+    background: linear-gradient(135deg, rgba(123, 82, 244, 0.1) 0%, rgba(123, 82, 244, 0.05) 100%);
+}
+
+.pricing-badge {
+    position: absolute;
+    top: -15px;
+    right: 30px;
+    background: var(--primary-color-1, #7B52F4);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pricing-card__header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid var(--border-light);
+}
+
+.pricing-card__header h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--primary-color-1, #7B52F4);
+}
+
+.pricing-subtitle {
+    color: var(--text-muted-light);
+    margin-bottom: 20px;
+}
+
+.pricing-card__price {
+    margin-top: 20px;
+}
+
+.pricing-card__price h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--text-white, #fff);
+    margin-bottom: 5px;
+}
+
+.pricing-card__price h2 span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-muted-light);
+}
+
+.pricing-card__price p {
+    font-size: 14px;
+    color: var(--text-muted-lighter);
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.pricing-features li {
+    padding: 12px 0;
+    color: var(--text-muted-light);
+    font-size: 15px;
+    border-bottom: 1px solid var(--border-lighter);
+}
+
+.pricing-features li:last-child {
+    border-bottom: none;
+}
+
+.pricing-features li i {
+    color: var(--primary-color-1, #7B52F4);
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Light mode pricing cards */
+body.home-light .pricing-card {
+    background: #fff;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.home-light .pricing-card:hover {
+    border-color: var(--primary-color-1, #7B52F4);
+    box-shadow: 0 10px 40px rgba(123, 82, 244, 0.15);
+}
+
+body.home-light .pricing-card--featured {
+    background: linear-gradient(135deg, rgba(123, 82, 244, 0.05) 0%, rgba(123, 82, 244, 0.02) 100%);
+}
+
+body.home-light .pricing-card__header {
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+body.home-light .pricing-subtitle {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+body.home-light .pricing-card__price h2 {
+    color: var(--text-dark, #000);
+}
+
+body.home-light .pricing-card__price h2 span,
+body.home-light .pricing-card__price p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+body.home-light .pricing-features li {
+    color: rgba(0, 0, 0, 0.8);
+    border-bottom-color: rgba(0, 0, 0, 0.05);
+}
+
+/* FAQ Items */
+.faq-wrapper {
+    margin-top: 40px;
+}
+
+.faq-item {
+    background: var(--bg-white, #1a1a1a);
+    border: 2px solid var(--border-light);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    border-color: var(--primary-color-1, #7B52F4);
+}
+
+.faq-item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--text-white, #fff);
+}
+
+.faq-item p {
+    color: var(--text-muted-light);
+    margin: 0;
+}
+
+body.home-light .faq-item {
+    background: #fff;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.home-light .faq-item h4 {
+    color: var(--text-dark, #000);
+}
+
+body.home-light .faq-item p {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Alerts */
+.alert {
+    padding: 20px 30px;
+    border-radius: 15px;
+    background: rgba(123, 82, 244, 0.1);
+    border: 2px solid rgba(123, 82, 244, 0.3);
+    color: var(--primary-color-1, #7B52F4);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+body.home-light .alert {
+    background: rgba(123, 82, 244, 0.05);
+}
+
+/* ========== Contact Page ========== */
+.contact-info-card {
+    background: var(--bg-white, #1a1a1a);
+    border: 2px solid var(--border-light);
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.contact-info-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary-color-1, #7B52F4);
+    box-shadow: 0 10px 40px rgba(123, 82, 244, 0.3);
+}
+
+.contact-info-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 25px;
+    background: linear-gradient(135deg, var(--primary-color-1, #7B52F4) 0%, rgba(123, 82, 244, 0.7) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+.contact-info-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--text-white, #fff);
+}
+
+.contact-info-card p {
+    color: var(--text-muted-lighter);
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    display: inline-block;
+    color: var(--primary-color-1, #7B52F4);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+    color: var(--primary-color-1, #7B52F4);
+    text-decoration: underline;
+}
+
+.contact-hours {
+    font-size: 14px;
+    color: var(--text-muted-lighter);
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+body.home-light .contact-info-card {
+    background: #fff;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.home-light .contact-info-card h3 {
+    color: var(--text-dark, #000);
+}
+
+body.home-light .contact-info-card p,
+body.home-light .contact-hours {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Contact Form */
+.contact-form-wrapper {
+    background: var(--bg-white, #1a1a1a);
+    border: 2px solid var(--border-light);
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-muted-light);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px 20px;
+    background: var(--bg-input);
+    border: 2px solid var(--border-light);
+    border-radius: 10px;
+    color: var(--text-white, #fff);
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--primary-color-1, #7B52F4);
+    background: var(--bg-input-focus);
+}
+
+.form-control::placeholder {
+    color: var(--text-muted-lightest);
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 150px;
+}
+
+select.form-control {
+    cursor: pointer;
+}
+
+.form-check {
+    padding-left: 0;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-check-label {
+    color: var(--text-muted-light);
+    cursor: pointer;
+}
+
+.form-disclaimer {
+    text-align: center;
+    color: var(--text-muted-lighter);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.form-disclaimer a {
+    color: var(--primary-color-1, #7B52F4);
+    text-decoration: underline;
+}
+
+body.home-light .contact-form-wrapper {
+    background: #fff;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.home-light .form-group label {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+body.home-light .form-control {
+    background: rgba(0, 0, 0, 0.02);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: var(--text-dark, #000);
+}
+
+body.home-light .form-control:focus {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.home-light .form-control::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+body.home-light .form-check-label {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+body.home-light .form-disclaimer {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Map Section */
+.map-section {
+    padding: 0;
+}
+
+.map-wrapper {
+    width: 100%;
+    height: 500px;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+@media (max-width: 768px) {
+    .contact-form-wrapper {
+        padding: 30px 20px;
+    }
+
+    .map-wrapper {
+        height: 400px;
+    }
+}
