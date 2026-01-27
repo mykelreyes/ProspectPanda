@@ -351,3 +351,33 @@ Then open: http://localhost:8000
 - **MEGA sync:** Automatic backup enabled
 - **Status:** Fully optimized & ready for deployment! 🚀
 - **Latest Updates:** SEO optimized, light mode fully functional (January 26, 2026)
+
+## GitHub Repository
+- **Repository URL:** https://github.com/mykelreyes/ProspectPanda
+- **Repository URL (clone):** https://github.com/mykelreyes/ProspectPanda.git
+- **Username:** mykelreyes
+- **Pushed:** January 28, 2026
+- **Files Pushed:** 241 files (all PHP pages, partials, assets, documentation)
+- **Excluded:** Sample Website folder (kept in MEGA only)
+- **Commit:** Initial commit with complete production-ready website
+- **Authentication:** Personal Access Token configured in macOS Keychain
+
+### Quick Git Commands
+```bash
+# Check status
+git status
+
+# Pull latest changes
+git pull origin main
+
+# Make changes, then commit
+git add .
+git commit -m "Your commit message"
+git push origin main
+
+# View commit history
+git log --oneline
+
+# View remote repository
+git remote -v
+```
