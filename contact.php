@@ -99,102 +99,30 @@ $img='assets/images/banner/page-header.png';
                      <div class="row justify-content-center">
                         <div class="col-12 col-lg-10">
                            <div class="section__header text-center">
-                              <span class="sub-title">
-                                 SEND A MESSAGE
-                                 <i class="fa-solid fa-arrow-right"></i>
-                              </span>
                               <h2 class="title title-anim">Ready to grow your business?</h2>
                            </div>
                         </div>
                      </div>
                      <div class="row justify-content-center">
                         <div class="col-12 col-lg-10">
-                           <div class="contact-form-wrapper">
-                              <form action="#" method="post" class="contact-form">
-                                 <div class="row gaper">
-                                    <div class="col-12 col-md-6">
-                                       <div class="form-group">
-                                          <label for="firstName">First Name *</label>
-                                          <input type="text" id="firstName" name="firstName" class="form-control" required>
-                                       </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                       <div class="form-group">
-                                          <label for="lastName">Last Name *</label>
-                                          <input type="text" id="lastName" name="lastName" class="form-control" required>
-                                       </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                       <div class="form-group">
-                                          <label for="email">Email Address *</label>
-                                          <input type="email" id="email" name="email" class="form-control" required>
-                                       </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                       <div class="form-group">
-                                          <label for="phone">Phone Number</label>
-                                          <input type="tel" id="phone" name="phone" class="form-control">
-                                       </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                       <div class="form-group">
-                                          <label for="company">Company Name</label>
-                                          <input type="text" id="company" name="company" class="form-control">
-                                       </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                       <div class="form-group">
-                                          <label for="teamSize">Team Size</label>
-                                          <select id="teamSize" name="teamSize" class="form-control">
-                                             <option value="">Select team size</option>
-                                             <option value="1-5">1-5 people</option>
-                                             <option value="6-20">6-20 people</option>
-                                             <option value="21-50">21-50 people</option>
-                                             <option value="51-200">51-200 people</option>
-                                             <option value="201+">201+ people</option>
-                                          </select>
-                                       </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="form-group">
-                                          <label for="interest">I'm interested in</label>
-                                          <select id="interest" name="interest" class="form-control">
-                                             <option value="">Select an option</option>
-                                             <option value="demo">Scheduling a demo</option>
-                                             <option value="trial">Starting a free trial</option>
-                                             <option value="pricing">Pricing information</option>
-                                             <option value="features">Learning about features</option>
-                                             <option value="migration">Migrating from another CRM</option>
-                                             <option value="enterprise">Enterprise solutions</option>
-                                             <option value="other">Something else</option>
-                                          </select>
-                                       </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="form-group">
-                                          <label for="message">Message *</label>
-                                          <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
-                                       </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="form-group form-check">
-                                          <input type="checkbox" id="newsletter" name="newsletter" class="form-check-input">
-                                          <label for="newsletter" class="form-check-label">
-                                             Send me ProspectPanda news, tips, and updates
-                                          </label>
-                                       </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="section__content-cta text-center">
-                                          <button type="submit" class="btn btn--primary">Send Message</button>
-                                       </div>
-                                       <p class="form-disclaimer">
-                                          By submitting this form, you agree to our <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </form>
-                           </div>
+                           <iframe
+                              src="https://api.prospectpandacrm.com/widget/form/7CIlX21W2c7gjguEmdep"
+                              style="width:100%;height:100%;border:none;border-radius:3px"
+                              id="inline-7CIlX21W2c7gjguEmdep"
+                              data-layout="{'id':'INLINE'}"
+                              data-trigger-type="alwaysShow"
+                              data-trigger-value=""
+                              data-activation-type="alwaysActivated"
+                              data-activation-value=""
+                              data-deactivation-type="neverDeactivate"
+                              data-deactivation-value=""
+                              data-form-name="Contact Us - Website"
+                              data-height="undefined"
+                              data-layout-iframe-id="inline-7CIlX21W2c7gjguEmdep"
+                              data-form-id="7CIlX21W2c7gjguEmdep"
+                              title="Contact Us - Website">
+                           </iframe>
+                           <script src="https://api.prospectpandacrm.com/js/form_embed.js"></script>
                         </div>
                      </div>
                   </div>
@@ -204,7 +132,7 @@ $img='assets/images/banner/page-header.png';
 
 
                <!-- ==== cta start ==== -->
-               <section class="section cta light">
+               <section class="section cta light" style="display:none">
                   <div class="container">
                      <div class="row justify-content-center">
                         <div class="col-12 col-lg-10">
