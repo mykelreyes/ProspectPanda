@@ -186,19 +186,7 @@ $img='assets/images/banner/page-header.png';
                               </span>
                               <h3>Integration Hub</h3>
                               <div class="paragraph">
-                                 <p>Connect with your favorite tools. Native integrations with Slack, Zapier, Google Workspace, Microsoft 365, and hundreds more.</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-xl-4">
-                           <div class="offer__single fade-top">
-                              <span class="sub-title">
-                                 12
-                                 <i class="fa-solid fa-arrow-right"></i>
-                              </span>
-                              <h3>Security & Compliance</h3>
-                              <div class="paragraph">
-                                 <p>Enterprise-grade security with SOC 2, GDPR, and CCPA compliance. Your data is encrypted, backed up, and protected.</p>
+                                 <p>Connect with your favorite tools. Integrations with Slack, Zapier, Google Workspace, Microsoft 365, and hundreds more.</p>
                               </div>
                            </div>
                         </div>
@@ -216,7 +204,7 @@ $img='assets/images/banner/page-header.png';
                <!-- ==== / features list end ==== -->
 
                <!-- ==== detailed features start ==== -->
-               <section class="section agency">
+               <section class="section agency" style="display:none;">
                   <div class="container">
                      <div class="row gaper align-items-center">
                         <div class="col-12 col-lg-6">
@@ -265,7 +253,7 @@ $img='assets/images/banner/page-header.png';
                               <h2 class="title title-anim">Start using these features today</h2>
                               <p>No credit card required. Set up your account in minutes and explore all features with our 14-day free trial.</p>
                               <div class="section__content-cta">
-                                 <a href="contact.php" class="btn btn--primary">Start Free Trial</a>
+                                 <a href="https://api.prospectpandacrm.com/widget/bookings/workflow-consultation" class="btn btn--primary">Book a Call</a>
                                  <a href="pricing.php" class="btn btn--secondary">View Pricing</a>
                               </div>
                            </div>
