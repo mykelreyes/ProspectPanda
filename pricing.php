@@ -65,21 +65,26 @@ $img='assets/images/banner/page-header.png';
                                  <h3>Starter</h3>
                                  <p class="pricing-subtitle">Perfect for small teams</p>
                                  <div class="pricing-card__price">
-                                    <h2>$29<span>/month</span></h2>
-                                    <p>per user, billed monthly</p>
+                                    <h2>$79<span>/month</span></h2>
+                                    <p>billed monthly</p>
                                  </div>
                               </div>
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
-                                    <li><i class="fa-solid fa-check"></i> Up to 5 users</li>
-                                    <li><i class="fa-solid fa-check"></i> 1,000 contacts</li>
+                                    <li><i class="fa-solid fa-check"></i> Unlimited users</li>
+                                    <li><i class="fa-solid fa-check"></i> Unlimited contacts</li>
                                     <li><i class="fa-solid fa-check"></i> Contact management</li>
                                     <li><i class="fa-solid fa-check"></i> Sales pipeline</li>
-                                    <li><i class="fa-solid fa-check"></i> Email integration</li>
+                                    <li><i class="fa-solid fa-check"></i> Calendar integration</li>
                                     <li><i class="fa-solid fa-check"></i> Basic reporting</li>
-                                    <li><i class="fa-solid fa-check"></i> Mobile apps</li>
                                     <li><i class="fa-solid fa-check"></i> Email support</li>
                                  </ul>
+                                 <div class="pricing-addons">
+                                    <p class="pricing-addons__title">Add-ons:</p>
+                                    <ul class="pricing-features">
+                                       <li><i class="fa-solid fa-plus"></i> Email sending — $0.675 per 1,000 emails</li>
+                                    </ul>
+                                 </div>
                                  <div class="section__content-cta">
                                     <a href="contact.php" class="btn btn--secondary w-100">Start Free Trial</a>
                                  </div>
@@ -87,62 +92,64 @@ $img='assets/images/banner/page-header.png';
                            </div>
                         </div>
 
-                        <!-- Professional Plan -->
+                        <!-- Growing Plan -->
                         <div class="col-12 col-md-6 col-xl-4">
                            <div class="pricing-card pricing-card--featured fade-top">
                               <div class="pricing-badge">Most Popular</div>
                               <div class="pricing-card__header">
-                                 <h3>Professional</h3>
+                                 <h3>Growing</h3>
                                  <p class="pricing-subtitle">For growing businesses</p>
                                  <div class="pricing-card__price">
-                                    <h2>$79<span>/month</span></h2>
-                                    <p>per user, billed monthly</p>
+                                    <h2>$200<span>/month</span></h2>
+                                    <p>billed monthly</p>
                                  </div>
                               </div>
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
-                                    <li><i class="fa-solid fa-check"></i> Up to 25 users</li>
-                                    <li><i class="fa-solid fa-check"></i> 10,000 contacts</li>
-                                    <li><i class="fa-solid fa-check"></i> Everything in Starter</li>
-                                    <li><i class="fa-solid fa-check"></i> Task & activity tracking</li>
-                                    <li><i class="fa-solid fa-check"></i> Advanced analytics</li>
-                                    <li><i class="fa-solid fa-check"></i> Lead scoring</li>
-                                    <li><i class="fa-solid fa-check"></i> Workflow automation</li>
-                                    <li><i class="fa-solid fa-check"></i> Custom fields & forms</li>
-                                    <li><i class="fa-solid fa-check"></i> Integrations hub</li>
+                                    <li><i class="fa-solid fa-check"></i> All in Starter</li>
+                                    <li><i class="fa-solid fa-check"></i> 2 workflow automations (done for you)</li>
+                                    <li><i class="fa-solid fa-check"></i> 1 landing page build (done for you)</li>
                                     <li><i class="fa-solid fa-check"></i> Priority support</li>
                                  </ul>
+                                 <div class="pricing-addons">
+                                    <p class="pricing-addons__title">Add-ons:</p>
+                                    <ul class="pricing-features">
+                                       <li><i class="fa-solid fa-plus"></i> Email sending — $0.675 per 1,000 emails</li>
+                                    </ul>
+                                 </div>
                                  <div class="section__content-cta">
-                                    <a href="contact.php" class="btn btn--primary w-100">Start Free Trial</a>
+                                    <a href="contact.php" class="btn btn--primary w-100">Contact Sales</a>
                                  </div>
                               </div>
                            </div>
                         </div>
 
-                        <!-- Enterprise Plan -->
+                        <!-- Retainer Plan -->
                         <div class="col-12 col-md-6 col-xl-4">
                            <div class="pricing-card fade-top">
                               <div class="pricing-card__header">
-                                 <h3>Enterprise</h3>
-                                 <p class="pricing-subtitle">For large organizations</p>
+                                 <h3>Retainer</h3>
+                                 <p class="pricing-subtitle">Your dedicated CRM partner</p>
                                  <div class="pricing-card__price">
-                                    <h2>Custom</h2>
-                                    <p>tailored to your needs</p>
+                                    <h2>$800<span>/month</span></h2>
+                                    <p>billed monthly</p>
                                  </div>
                               </div>
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
-                                    <li><i class="fa-solid fa-check"></i> Unlimited users</li>
-                                    <li><i class="fa-solid fa-check"></i> Unlimited contacts</li>
-                                    <li><i class="fa-solid fa-check"></i> Everything in Professional</li>
-                                    <li><i class="fa-solid fa-check"></i> AI-powered insights</li>
-                                    <li><i class="fa-solid fa-check"></i> Advanced forecasting</li>
-                                    <li><i class="fa-solid fa-check"></i> Custom reporting</li>
-                                    <li><i class="fa-solid fa-check"></i> API access</li>
-                                    <li><i class="fa-solid fa-check"></i> SSO & advanced security</li>
-                                    <li><i class="fa-solid fa-check"></i> Dedicated account manager</li>
-                                    <li><i class="fa-solid fa-check"></i> 24/7 phone support</li>
+                                    <li><i class="fa-solid fa-check"></i> All in Growing</li>
+                                    <li><i class="fa-solid fa-check"></i> Dedicated CRM consultant</li>
+                                    <li><i class="fa-solid fa-check"></i> Custom workflow builds</li>
+                                    <li><i class="fa-solid fa-check"></i> Ongoing CRM support & optimization</li>
+                                    <li><i class="fa-solid fa-check"></i> Monthly strategy calls</li>
+                                    <li><i class="fa-solid fa-check"></i> Priority turnaround</li>
                                  </ul>
+                                 <div class="pricing-addons">
+                                    <p class="pricing-addons__title">Add-ons:</p>
+                                    <ul class="pricing-features">
+                                       <li><i class="fa-solid fa-plus"></i> Email sending — $0.675 per 1,000 emails</li>
+                                    </ul>
+                                 </div>
                                  <div class="section__content-cta">
                                     <a href="contact.php" class="btn btn--secondary w-100">Contact Sales</a>
                                  </div>
@@ -152,7 +159,7 @@ $img='assets/images/banner/page-header.png';
                      </div>
 
                      <!-- Annual billing discount -->
-                     <div class="row justify-content-center mt-5">
+                     <div class="row justify-content-center mt-5" style="display:none">
                         <div class="col-12 col-lg-8">
                            <div class="text-center">
                               <div class="alert alert-info">
@@ -194,7 +201,7 @@ $img='assets/images/banner/page-header.png';
                                  <h4>Can I change plans later?</h4>
                                  <p>Yes! You can upgrade or downgrade your plan at any time. Changes take effect immediately, and we'll prorate your billing accordingly.</p>
                               </div>
-                              <div class="faq-item fade-top">
+                              <div class="faq-item fade-top" style="display:none">
                                  <h4>What payment methods do you accept?</h4>
                                  <p>We accept all major credit cards (Visa, MasterCard, American Express) and can arrange wire transfers for Enterprise plans.</p>
                               </div>
@@ -206,11 +213,11 @@ $img='assets/images/banner/page-header.png';
                                  <h4>Can I cancel anytime?</h4>
                                  <p>Absolutely. Cancel your subscription at any time with no penalties or fees. Your account will remain active until the end of your billing period.</p>
                               </div>
-                              <div class="faq-item fade-top">
+                              <div class="faq-item fade-top" style="display:none">
                                  <h4>Do you offer refunds?</h4>
                                  <p>Yes, we offer a 30-day money-back guarantee. If you're not satisfied within the first 30 days, we'll refund your purchase no questions asked.</p>
                               </div>
-                              <div class="faq-item fade-top">
+                              <div class="faq-item fade-top" style="display:none">
                                  <h4>Is my data secure?</h4>
                                  <p>Yes. We use bank-level encryption, are SOC 2 compliant, and our servers are monitored 24/7. Your data is backed up daily and stored in multiple secure locations.</p>
                               </div>

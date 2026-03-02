@@ -58,7 +58,7 @@ $img='assets/images/banner/page-header.png';
                <section class="section offer fade-wrapper light pt-0">
                   <div class="container">
                      <div class="row gaper justify-content-center">
-                        <div class="col-12 col-md-6 col-xl-4">
+                        <div class="col-12 col-md-6 col-xl-4" style="display:none">
                            <div class="contact-info-card fade-top">
                               <div class="contact-info-icon">
                                  <i class="fa-brands fa-whatsapp"></i>

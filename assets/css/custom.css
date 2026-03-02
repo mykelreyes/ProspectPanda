@@ -123,6 +123,32 @@
     font-size: 16px;
 }
 
+/* Pricing Add-ons */
+.pricing-addons {
+    border-top: 2px solid var(--border-light);
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.pricing-addons__title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted-lighter);
+    margin-bottom: 0;
+}
+
+.pricing-addons .pricing-features {
+    margin-bottom: 20px;
+}
+
+.pricing-addons .pricing-features li {
+    font-size: 14px;
+    border-bottom: none;
+    padding: 8px 0;
+}
+
 /* FAQ Items */
 .faq-wrapper {
     margin-top: 40px;

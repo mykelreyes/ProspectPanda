@@ -44,7 +44,7 @@
                      <i class="fa-sharp fa-solid fa-location-dot"></i>
                      Caloocan, Philippines
                   </a>
-                  <a href="https://wa.me/639193531856">
+                  <a href="https://wa.me/639193531856" style="display:none">
                      <i class="fa-brands fa-whatsapp"></i>
                      +639193531856
                   </a>
