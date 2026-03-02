@@ -46,7 +46,7 @@ $img='assets/images/banner/page-header.png';
                         <div class="col-12 col-lg-6">
                            <div class="agency__content section__content">
                               <h2 class="title title-anim">
-                                 A CRM your whole team uses on <span style="color: var(--primary-color)">day one.</span><br>No trainer needed.
+                                 A <span style="text-transform: uppercase">CRM</span> your whole team uses on <span style="color: var(--primary-color)">day one.</span><br>No trainer needed.
                               </h2>
                               <div class="paragraph">
                                  <p>Most CRMs assume your team has an IT department and a six-figure budget. <strong>Most small businesses have neither.</strong> ProspectPanda was built for the rest of us.</p>
