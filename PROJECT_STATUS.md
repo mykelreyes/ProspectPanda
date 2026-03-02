@@ -44,9 +44,9 @@ The ProspectPanda CRM website is now fully built, customized, and ready to deplo
 - Next page CTA
 
 #### ✅ About Us Page (`about.php`)
-- Company story section
+- Company story section (updated copy: "A CRM your whole team uses on day one.")
 - 4 core values
-- Statistics (by the numbers)
+- Statistics section (hidden)
 - Call-to-action
 
 #### ✅ Features Page (`features.php`)
@@ -368,7 +368,7 @@ Then open: http://localhost:8000
 - **Project folder (Windows):** `C:\Users\Administrator\Documents\MEGA\ProspectPanda\`
 - **MEGA sync:** Automatic backup enabled
 - **Status:** Fully optimized & ready for deployment! 🚀
-- **Latest Updates:** Pricing overhaul & contact cleanup (March 3, 2026)
+- **Latest Updates:** About page refresh & header CTA update (March 3, 2026)
 
 ## GitHub Repository
 - **Repository URL:** https://github.com/mykelreyes/ProspectPanda
@@ -379,6 +379,20 @@ Then open: http://localhost:8000
 - **Excluded:** Sample Website folder (kept in MEGA only)
 - **Commit:** Initial commit with complete production-ready website
 - **Authentication:** Personal Access Token configured in macOS Keychain
+
+### Session 7: About Page Refresh & Header CTA Update (March 3, 2026)
+- **About Page - Story Section Rewritten:**
+  - Removed "OUR STORY" sub-title badge
+  - New heading: "A CRM your whole team uses on day one. No trainer needed." (with orange accent on "day one.")
+  - New copy focusing on simplicity and non-tech accessibility
+  - Removed "Join Our Team" CTA button
+- **About Page - Stats Section Hidden:** Removed "By The Numbers" section (10k+, 50M+, 95%, 24/7)
+- **Header CTA Updated:**
+  - Changed "Get Started" button to "Book a Call"
+  - Redirected from contact.php to booking widget (api.prospectpandacrm.com)
+- **Files Modified:**
+  - about.php (story rewrite, stats removal)
+  - partials/header.php (CTA text and link)
 
 ### Quick Git Commands
 ```bash

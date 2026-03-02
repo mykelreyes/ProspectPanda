@@ -31,7 +31,7 @@
                         </div>
                         <div class="navbar__options">
                            <div class="navbar__mobile-options d-none d-sm-flex">
-                              <a href="contact.php" class="btn btn--secondary">Get Started</a>
+                              <a href="https://api.prospectpandacrm.com/widget/bookings/workflow-consultation" class="btn btn--secondary">Book a Call</a>
                            </div>
                            <button class="open-mobile-menu d-flex d-xl-none" aria-label="toggle mobile menu">
                               <i class="fa-light fa-bars-staggered"></i>
