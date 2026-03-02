@@ -58,8 +58,8 @@ The ProspectPanda CRM website is now fully built, customized, and ready to deplo
 #### ✅ Pricing Page (`pricing.php`)
 - 3 pricing tiers:
   - Starter ($79/month) - Unlimited users/contacts, calendar integration, email support
-  - Growing ($200/month) - Featured/Most Popular - All in Starter + done-for-you automations & landing page
-  - Retainer ($800/month) - Dedicated CRM consultant, custom workflow builds, monthly strategy calls
+  - Growing ($199/month) - Featured/Most Popular - All in Starter + done-for-you automations & landing page
+  - Retainer ($799/month) - Dedicated CRM consultant, custom workflow builds, monthly strategy calls
 - Email sending add-on across all tiers ($0.675 per 1,000 emails)
 - FAQ section (3 visible questions)
 - Annual billing discount notice (hidden)
@@ -345,8 +345,8 @@ Then open: http://localhost:8000
   - partials/footer.php (footer WhatsApp link)
 - **Pricing Tiers Completely Reworked:**
   - **Starter** ($29 → $79/month): Unlimited users & contacts, contact management, sales pipeline, calendar integration, basic reporting, email support
-  - **Professional → Growing** ($79 → $200/month): All in Starter + 2 workflow automations (done for you), 1 landing page build (done for you), priority support
-  - **Enterprise → Retainer** (Custom → $800/month): All in Growing + dedicated CRM consultant, custom workflow builds, ongoing CRM support & optimization, monthly strategy calls, priority turnaround
+  - **Professional → Growing** ($79 → $199/month): All in Starter + 2 workflow automations (done for you), 1 landing page build (done for you), priority support
+  - **Enterprise → Retainer** (Custom → $799/month): All in Growing + dedicated CRM consultant, custom workflow builds, ongoing CRM support & optimization, monthly strategy calls, priority turnaround
 - **Email Sending Add-on:** Added to all tiers at $0.675 per 1,000 emails (with styled add-on section)
 - **Billing Model:** Changed from "per user, billed monthly" to flat "billed monthly"
 - **CTA Buttons:** Starter keeps "Start Free Trial"; Growing & Retainer use "Contact Sales"

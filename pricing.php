@@ -100,7 +100,7 @@ $img='assets/images/banner/page-header.png';
                                  <h3>Growing</h3>
                                  <p class="pricing-subtitle">For growing businesses</p>
                                  <div class="pricing-card__price">
-                                    <h2>$200<span>/month</span></h2>
+                                    <h2>$199<span>/month</span></h2>
                                     <p>billed monthly</p>
                                  </div>
                               </div>
@@ -131,7 +131,7 @@ $img='assets/images/banner/page-header.png';
                                  <h3>Retainer</h3>
                                  <p class="pricing-subtitle">Your dedicated CRM partner</p>
                                  <div class="pricing-card__price">
-                                    <h2>$800<span>/month</span></h2>
+                                    <h2>$799<span>/month</span></h2>
                                     <p>billed monthly</p>
                                  </div>
                               </div>
