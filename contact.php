@@ -76,7 +76,7 @@ $img='assets/images/banner/page-header.png';
                               </div>
                               <h3>Email Us</h3>
                               <p>For general inquiries</p>
-                              <a href="mailto:amreyes.ph@gmail.com" class="contact-link">amreyes.ph@gmail.com</a>
+                              <a href="mailto:info@prospectpandacrm.com" class="contact-link">info@prospectpandacrm.com</a>
                               <p class="contact-hours">Response within 24 hours</p>
                            </div>
                         </div>

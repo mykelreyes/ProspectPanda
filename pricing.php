@@ -107,8 +107,8 @@ $img='assets/images/banner/page-header.png';
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
                                     <li><i class="fa-solid fa-check"></i> All in Starter</li>
-                                    <li><i class="fa-solid fa-check"></i> 2 workflow automations (done for you)</li>
-                                    <li><i class="fa-solid fa-check"></i> 1 landing page build (done for you)</li>
+                                    <li><i class="fa-solid fa-check"></i> 10 hours per month of consulting & hands-on assistance</li>
+                                    <li><i class="fa-solid fa-check"></i> Monthly strategy calls</li>
                                     <li><i class="fa-solid fa-check"></i> Priority support</li>
                                  </ul>
                                  <div class="pricing-addons">
@@ -138,10 +138,10 @@ $img='assets/images/banner/page-header.png';
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
                                     <li><i class="fa-solid fa-check"></i> All in Growing</li>
+                                    <li><i class="fa-solid fa-check"></i> 40 hours per month of consulting & hands-on assistance</li>
                                     <li><i class="fa-solid fa-check"></i> Dedicated CRM consultant</li>
-                                    <li><i class="fa-solid fa-check"></i> Custom workflow builds</li>
+                                    <li><i class="fa-solid fa-check"></i> Helping you create and maintain workflows</li>
                                     <li><i class="fa-solid fa-check"></i> Ongoing CRM support & optimization</li>
-                                    <li><i class="fa-solid fa-check"></i> Monthly strategy calls</li>
                                     <li><i class="fa-solid fa-check"></i> Priority turnaround</li>
                                  </ul>
                                  <div class="pricing-addons">

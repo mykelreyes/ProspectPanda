@@ -345,8 +345,8 @@ Then open: http://localhost:8000
   - partials/footer.php (footer WhatsApp link)
 - **Pricing Tiers Completely Reworked:**
   - **Starter** ($29 → $79/month): Unlimited users & contacts, contact management, sales pipeline, calendar integration, basic reporting, email support
-  - **Professional → Growing** ($79 → $199/month): All in Starter + 2 workflow automations (done for you), 1 landing page build (done for you), priority support
-  - **Enterprise → Retainer** (Custom → $799/month): All in Growing + dedicated CRM consultant, custom workflow builds, ongoing CRM support & optimization, monthly strategy calls, priority turnaround
+  - **Professional → Growing** ($79 → $199/month): All in Starter + 2 workflow automations (done for you), 1 landing page build (done for you), priority support *(updated in Session 8)*
+  - **Enterprise → Retainer** (Custom → $799/month): All in Growing + dedicated CRM consultant, custom workflow builds, ongoing CRM support & optimization, monthly strategy calls, priority turnaround *(updated in Session 8)*
 - **Email Sending Add-on:** Added to all tiers at $0.675 per 1,000 emails (with styled add-on section)
 - **Billing Model:** Changed from "per user, billed monthly" to flat "billed monthly"
 - **CTA Buttons:** Starter keeps "Start Free Trial"; Growing & Retainer use "Contact Sales"
@@ -361,7 +361,7 @@ Then open: http://localhost:8000
 ---
 
 ## Contact Info
-- **Website Contact:** amreyes.ph@gmail.com
+- **Website Contact:** info@prospectpandacrm.com
 - **WhatsApp:** +639193531856
 - **Location:** Caloocan, Philippines
 - **Project folder (Mac):** `/Users/myk/MEGA/ProspectPanda/`
@@ -393,6 +393,22 @@ Then open: http://localhost:8000
 - **Files Modified:**
   - about.php (story rewrite, stats removal)
   - partials/header.php (CTA text and link)
+
+### Session 8: Email & Pricing Content Update (March 5, 2026)
+- **Contact Email Updated:** Changed from `amreyes.ph@gmail.com` to `info@prospectpandacrm.com` across all locations
+  - index.php (banner email link)
+  - contact.php (email contact card)
+  - partials/footer.php (footer email — both instances)
+- **Growing Tier Features Revised:**
+  - Removed: "2 workflow automations (done for you)", "1 landing page build (done for you)"
+  - Added: "10 hours per month of consulting & hands-on assistance", "Monthly strategy calls"
+- **Retainer Tier Features Revised:**
+  - Added: "40 hours per month of consulting & hands-on assistance"
+  - Removed: "Monthly strategy calls" (now covered in Growing — no duplication)
+  - Changed: "Custom workflow builds" → "Helping you create and maintain workflows"
+- **Files Modified:**
+  - index.php, contact.php, partials/footer.php (email update)
+  - pricing.php (Growing + Retainer feature lists)
 
 ### Quick Git Commands
 ```bash

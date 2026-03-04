@@ -64,7 +64,7 @@
                      class="banner-one-thumb d-none d-sm-block g-ban-one">
                   <img src="assets/images/star.png" alt="Image" class="star">
                   <div class="banner-left-text banner-social-text d-none d-md-flex">
-                     <a href="mailto:amreyes.ph@gmail.com">mail: amreyes.ph@gmail.com</a>
+                     <a href="mailto:info@prospectpandacrm.com">mail: info@prospectpandacrm.com</a>
                      <a href="https://wa.me/639193531856" style="display:none">WhatsApp: +639193531856</a>
                   </div>
                   <div class="banner-right-text banner-social-text d-none">
