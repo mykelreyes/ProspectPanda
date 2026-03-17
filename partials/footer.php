@@ -14,7 +14,7 @@
                </div>
                <div class="section__content-cta">
                   <h2>
-                     <a href="mailto:amreyes.ph@gmail.com" class="folks-text">amreyes.ph@gmail.com</a>
+                     <a href="mailto:info@prospectpandacrm.com" class="folks-text">info@prospectpandacrm.com</a>
                   </h2>
                </div>
             </div>
@@ -44,13 +44,13 @@
                      <i class="fa-sharp fa-solid fa-location-dot"></i>
                      Caloocan, Philippines
                   </a>
-                  <a href="https://wa.me/639193531856">
+                  <a href="https://wa.me/639193531856" style="display:none">
                      <i class="fa-brands fa-whatsapp"></i>
                      +639193531856
                   </a>
-                  <a href="mailto:amreyes.ph@gmail.com">
+                  <a href="mailto:info@prospectpandacrm.com">
                      <i class="fa-sharp fa-solid fa-envelope"></i>
-                     amreyes.ph@gmail.com
+                     info@prospectpandacrm.com
                   </a>
                </div>
             </div>
@@ -85,6 +85,12 @@
                   </li>
                   <li>
                      <a href="contact.php">Contact</a>
+                  </li>
+                  <li>
+                     <a href="terms.php">Terms of Service</a>
+                  </li>
+                  <li>
+                     <a href="privacy.php">Privacy Policy</a>
                   </li>
                </ul>
             </div>
