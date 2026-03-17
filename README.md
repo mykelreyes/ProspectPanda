@@ -9,7 +9,7 @@ This website includes 5 fully functional pages:
 1. **Homepage** (`index.php`) - Eye-catching hero section, key features, customer testimonials
 2. **About Us** (`about.php`) - Company story, values, and statistics
 3. **Features** (`features.php`) - Comprehensive list of 12 CRM features
-4. **Pricing** (`pricing.php`) - 3 pricing tiers (Starter, Professional, Enterprise) with FAQ
+4. **Pricing** (`pricing.php`) - 3 pricing tiers (Starter, Growing, Retainer) with FAQ
 5. **Contact** (`contact.php`) - Contact form, info cards, and embedded map
 
 ## ✨ Key Features

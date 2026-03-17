@@ -58,7 +58,7 @@ $img='assets/images/banner/page-header.png';
                <section class="section offer fade-wrapper light pt-0">
                   <div class="container">
                      <div class="row gaper justify-content-center">
-                        <div class="col-12 col-md-6 col-xl-4">
+                        <div class="col-12 col-md-6 col-xl-4" style="display:none">
                            <div class="contact-info-card fade-top">
                               <div class="contact-info-icon">
                                  <i class="fa-brands fa-whatsapp"></i>
@@ -76,7 +76,7 @@ $img='assets/images/banner/page-header.png';
                               </div>
                               <h3>Email Us</h3>
                               <p>For general inquiries</p>
-                              <a href="mailto:amreyes.ph@gmail.com" class="contact-link">amreyes.ph@gmail.com</a>
+                              <a href="mailto:info@prospectpandacrm.com" class="contact-link">info@prospectpandacrm.com</a>
                               <p class="contact-hours">Response within 24 hours</p>
                            </div>
                         </div>

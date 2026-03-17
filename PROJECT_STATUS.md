@@ -1,5 +1,5 @@
 # ProspectPanda Website - Project Status
-**Last Updated:** January 26, 2026
+**Last Updated:** March 3, 2026
 
 ## 🎉 PROJECT COMPLETE & FULLY OPTIMIZED!
 
@@ -44,9 +44,9 @@ The ProspectPanda CRM website is now fully built, customized, and ready to deplo
 - Next page CTA
 
 #### ✅ About Us Page (`about.php`)
-- Company story section
+- Company story section (updated copy: "A CRM your whole team uses on day one.")
 - 4 core values
-- Statistics (by the numbers)
+- Statistics section (hidden)
 - Call-to-action
 
 #### ✅ Features Page (`features.php`)
@@ -57,19 +57,20 @@ The ProspectPanda CRM website is now fully built, customized, and ready to deplo
 
 #### ✅ Pricing Page (`pricing.php`)
 - 3 pricing tiers:
-  - Starter ($29/month)
-  - Professional ($79/month) - Featured
-  - Enterprise (Custom pricing)
-- Feature comparison lists
-- FAQ section (6 questions)
-- Annual billing discount notice
+  - Starter ($79/month) - Unlimited users/contacts, calendar integration, email support
+  - Growing ($199/month) - Featured/Most Popular - All in Starter + done-for-you automations & landing page
+  - Retainer ($799/month) - Dedicated CRM consultant, custom workflow builds, monthly strategy calls
+- Email sending add-on across all tiers ($0.675 per 1,000 emails)
+- FAQ section (3 visible questions)
+- Annual billing discount notice (hidden)
 
 #### ✅ Contact Page (`contact.php`)
-- 2 centered contact cards (WhatsApp, Email)
+- 1 centered contact card (Email only — WhatsApp card hidden)
 - Comprehensive contact form (8 fields)
 - Clean, focused layout (map completely removed)
 - Free trial CTA
 - Social media links hidden (can be re-enabled later)
+- Phone number hidden across all pages (index, contact, footer)
 
 ### 5. Documentation (COMPLETE)
 - **Created:** Comprehensive README.md
@@ -336,21 +337,38 @@ Then open: http://localhost:8000
   - partials/head.php (favicon + meta tags)
   - assets/css/main.css (CSS variables + portfolio fix)
   - assets/css/custom.css (21 RGBA replacements)
-- **Testing Required:** Visual verification in both light and dark modes
 
-**Total Changes:** 3 files modified + 24 specific code updates + CSS variable system implemented
+### Session 6: Pricing Overhaul & Contact Cleanup (March 3, 2026)
+- **Phone Number Hidden:** Removed phone/WhatsApp visibility from all pages
+  - index.php (banner WhatsApp link)
+  - contact.php (entire WhatsApp contact card)
+  - partials/footer.php (footer WhatsApp link)
+- **Pricing Tiers Completely Reworked:**
+  - **Starter** ($29 → $79/month): Unlimited users & contacts, contact management, sales pipeline, calendar integration, basic reporting, email support
+  - **Professional → Growing** ($79 → $199/month): All in Starter + 2 workflow automations (done for you), 1 landing page build (done for you), priority support *(updated in Session 8)*
+  - **Enterprise → Retainer** (Custom → $799/month): All in Growing + dedicated CRM consultant, custom workflow builds, ongoing CRM support & optimization, monthly strategy calls, priority turnaround *(updated in Session 8)*
+- **Email Sending Add-on:** Added to all tiers at $0.675 per 1,000 emails (with styled add-on section)
+- **Billing Model:** Changed from "per user, billed monthly" to flat "billed monthly"
+- **CTA Buttons:** Starter keeps "Start Free Trial"; Growing & Retainer use "Contact Sales"
+- **Annual Billing Banner:** Hidden
+- **FAQs Hidden:** Payment methods, refunds, data security (3 of 6 hidden)
+- **New CSS:** Added `.pricing-addons` styles for add-on sections
+- **Files Modified:**
+  - index.php, contact.php, partials/footer.php (phone number hiding)
+  - pricing.php (complete pricing restructure + FAQ hiding + banner hiding)
+  - assets/css/custom.css (add-on section styling)
 
 ---
 
 ## Contact Info
-- **Website Contact:** amreyes.ph@gmail.com
+- **Website Contact:** info@prospectpandacrm.com
 - **WhatsApp:** +639193531856
 - **Location:** Caloocan, Philippines
 - **Project folder (Mac):** `/Users/myk/MEGA/ProspectPanda/`
 - **Project folder (Windows):** `C:\Users\Administrator\Documents\MEGA\ProspectPanda\`
 - **MEGA sync:** Automatic backup enabled
 - **Status:** Fully optimized & ready for deployment! 🚀
-- **Latest Updates:** SEO optimized, light mode fully functional (January 26, 2026)
+- **Latest Updates:** About page refresh & header CTA update (March 3, 2026)
 
 ## GitHub Repository
 - **Repository URL:** https://github.com/mykelreyes/ProspectPanda
@@ -361,6 +379,36 @@ Then open: http://localhost:8000
 - **Excluded:** Sample Website folder (kept in MEGA only)
 - **Commit:** Initial commit with complete production-ready website
 - **Authentication:** Personal Access Token configured in macOS Keychain
+
+### Session 7: About Page Refresh & Header CTA Update (March 3, 2026)
+- **About Page - Story Section Rewritten:**
+  - Removed "OUR STORY" sub-title badge
+  - New heading: "A CRM your whole team uses on day one. No trainer needed." (with orange accent on "day one.")
+  - New copy focusing on simplicity and non-tech accessibility
+  - Removed "Join Our Team" CTA button
+- **About Page - Stats Section Hidden:** Removed "By The Numbers" section (10k+, 50M+, 95%, 24/7)
+- **Header CTA Updated:**
+  - Changed "Get Started" button to "Book a Call"
+  - Redirected from contact.php to booking widget (api.prospectpandacrm.com)
+- **Files Modified:**
+  - about.php (story rewrite, stats removal)
+  - partials/header.php (CTA text and link)
+
+### Session 8: Email & Pricing Content Update (March 5, 2026)
+- **Contact Email Updated:** Changed from `amreyes.ph@gmail.com` to `info@prospectpandacrm.com` across all locations
+  - index.php (banner email link)
+  - contact.php (email contact card)
+  - partials/footer.php (footer email — both instances)
+- **Growing Tier Features Revised:**
+  - Removed: "2 workflow automations (done for you)", "1 landing page build (done for you)"
+  - Added: "10 hours per month of consulting & hands-on assistance", "Monthly strategy calls"
+- **Retainer Tier Features Revised:**
+  - Added: "40 hours per month of consulting & hands-on assistance"
+  - Removed: "Monthly strategy calls" (now covered in Growing — no duplication)
+  - Changed: "Custom workflow builds" → "Helping you create and maintain workflows"
+- **Files Modified:**
+  - index.php, contact.php, partials/footer.php (email update)
+  - pricing.php (Growing + Retainer feature lists)
 
 ### Quick Git Commands
 ```bash

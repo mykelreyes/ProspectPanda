@@ -45,19 +45,12 @@ $img='assets/images/banner/page-header.png';
                         </div>
                         <div class="col-12 col-lg-6">
                            <div class="agency__content section__content">
-                              <span class="sub-title">
-                                 OUR STORY
-                                 <i class="fa-solid fa-arrow-right"></i>
-                              </span>
                               <h2 class="title title-anim">
-                                 Built by sales teams, for sales teams
+                                 A <span style="text-transform: uppercase">CRM</span> your whole team uses on <span style="color: var(--primary-color)">day one.</span><br>No trainer needed.
                               </h2>
                               <div class="paragraph">
-                                 <p>ProspectPanda was born from a simple frustration: existing CRMs were either too complex for small teams or too basic for growing businesses. We knew there had to be a better way.</p>
-                                 <p>Founded in 2019, our mission has been to create a CRM that combines powerful features with intuitive design. Today, over 10,000 businesses use ProspectPanda to manage relationships, track deals, and grow revenue.</p>
-                              </div>
-                              <div class="section__content-cta">
-                                 <a href="contact.php" class="btn btn--primary">Join Our Team</a>
+                                 <p>Most CRMs assume your team has an IT department and a six-figure budget. <strong>Most small businesses have neither.</strong> ProspectPanda was built for the rest of us.</p>
+                                 <p>We started ProspectPanda with one rule: if a non-tech person cannot figure it out in under an hour, we go back and simplify it. That rule shapes everything, from our pricing to our interface.</p>
                               </div>
                            </div>
                         </div>
@@ -144,49 +137,7 @@ $img='assets/images/banner/page-header.png';
                </section>
                <!-- ==== / mission end ==== -->
 
-               <!-- ==== stats start ==== -->
-               <section class="section agency pb-0">
-                  <div class="container">
-                     <div class="row justify-content-center">
-                        <div class="col-12 col-lg-8">
-                           <div class="section__header text-center">
-                              <span class="sub-title">
-                                 BY THE NUMBERS
-                                 <i class="fa-solid fa-arrow-right"></i>
-                              </span>
-                              <h2 class="title title-anim">Making an impact</h2>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row gaper">
-                        <div class="col-12 col-sm-6 col-xl-3">
-                           <div class="text-center fade-top">
-                              <h2 class="h1 fw-9">10k+</h2>
-                              <p class="fw-5">Active Customers</p>
-                           </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                           <div class="text-center fade-top">
-                              <h2 class="h1 fw-9">50M+</h2>
-                              <p class="fw-5">Leads Managed</p>
-                           </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                           <div class="text-center fade-top">
-                              <h2 class="h1 fw-9">95%</h2>
-                              <p class="fw-5">Customer Satisfaction</p>
-                           </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                           <div class="text-center fade-top">
-                              <h2 class="h1 fw-9">24/7</h2>
-                              <p class="fw-5">Customer Support</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </section>
-               <!-- ==== / stats end ==== -->
+               <!-- ==== stats hidden ==== -->
 
                <!-- ==== cta start ==== -->
                <section class="section cta">
