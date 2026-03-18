@@ -1,5 +1,5 @@
 # ProspectPanda Website - Project Status
-**Last Updated:** March 3, 2026
+**Last Updated:** March 18, 2026
 
 ## 🎉 PROJECT COMPLETE & FULLY OPTIMIZED!
 
@@ -57,9 +57,9 @@ The ProspectPanda CRM website is now fully built, customized, and ready to deplo
 
 #### ✅ Pricing Page (`pricing.php`)
 - 3 pricing tiers:
-  - Starter ($79/month) - Unlimited users/contacts, calendar integration, email support
-  - Growing ($199/month) - Featured/Most Popular - All in Starter + done-for-you automations & landing page
-  - Retainer ($799/month) - Dedicated CRM consultant, custom workflow builds, monthly strategy calls
+  - Starter ($147/month) - Pre-configured CRM, done-for-you pipeline setup and maintenance, 3 email templates, email support (48hr)
+  - Growing ($397/month) - Featured/Most Popular - Everything in Starter + 10hrs/month consulting, 3 custom automation workflows and maintenance, landing page setup and maintenance, advanced third-party automations, priority support (24hr)
+  - Retainer ($1,497/month) - Everything in Growing + 40hrs/month consulting, dedicated CRM consultant, unlimited automations and landing pages, monthly strategy call, same-day response, quarterly CRM audit
 - Email sending add-on across all tiers ($0.675 per 1,000 emails)
 - FAQ section (3 visible questions)
 - Annual billing discount notice (hidden)
@@ -368,7 +368,7 @@ Then open: http://localhost:8000
 - **Project folder (Windows):** `C:\Users\Administrator\Documents\MEGA\ProspectPanda\`
 - **MEGA sync:** Automatic backup enabled
 - **Status:** Fully optimized & ready for deployment! 🚀
-- **Latest Updates:** About page refresh & header CTA update (March 3, 2026)
+- **Latest Updates:** Pricing recalculation and tier overhaul (March 18, 2026)
 
 ## GitHub Repository
 - **Repository URL:** https://github.com/mykelreyes/ProspectPanda
@@ -409,6 +409,37 @@ Then open: http://localhost:8000
 - **Files Modified:**
   - index.php, contact.php, partials/footer.php (email update)
   - pricing.php (Growing + Retainer feature lists)
+
+### Session 9: Legal Pages (March 17, 2026)
+- **New Page:** `terms.php` — Terms of Service with 9 sections
+  - Governing law: Republic of the Philippines, courts of Caloocan City
+  - Content adapted from GHL ToS structure
+  - Two-column layout: sticky sidebar (col-lg-3) + content area (col-lg-9)
+  - Sidebar links: #use, #payment, #ip, #disclaimers, #liability, #termination, #disputes, #changes, #contact
+  - .terms-notice warning block at top (purple styled, dispute resolution notice)
+- **New Page:** `privacy.php` — Privacy Policy with 11 sections
+  - Content adapted from GHL Privacy Policy structure
+  - Dropped EU/US/AU/CA regional rights (not applicable)
+  - Same two-column layout as terms.php
+- **CSS:** Added legal page styles to custom.css (.terms-sidebar, .terms-section, .terms-link, .terms-contact-list, .terms-notice, responsive breakpoints)
+- **Footer:** Added Terms of Service and Privacy Policy links to footer nav
+- **Files Modified:**
+  - terms.php (new)
+  - privacy.php (new)
+  - assets/css/custom.css (legal page styles)
+  - partials/footer.php (footer nav links)
+
+### Session 10: Pricing Recalculation (March 18, 2026)
+- **Full cost analysis** covering salary ($20/hr), GHL ($97), N8N ($20), Google Workspace ($7), Namecheap, and misc overhead
+- **All tiers repriced** with charm pricing (ending in 7) and psychology-optimized gaps:
+  - Starter: $79 → $147/month (pre-configured CRM, done-for-you pipeline setup and maintenance, 3 email templates, 48hr email support)
+  - Growing: $199 → $397/month (10hrs consulting, 3 custom automation workflows and maintenance, landing page setup and maintenance, advanced third-party automations, 24hr priority support)
+  - Retainer: $799 → $1,497/month (40hrs consulting, dedicated consultant, unlimited automations and landing pages, same-day response, quarterly CRM audit)
+- **Starter repositioned** above GHL's direct $97 price to justify done-for-you setup value
+- **Inclusions sweetened** across all tiers without increasing labor hours
+- **Files Modified:**
+  - pricing.php (prices and feature lists for all 3 tiers)
+  - PROJECT_STATUS.md (pricing section and session log)
 
 ### Quick Git Commands
 ```bash

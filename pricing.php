@@ -65,19 +65,19 @@ $img='assets/images/banner/page-header.png';
                                  <h3>Starter</h3>
                                  <p class="pricing-subtitle">Perfect for small teams</p>
                                  <div class="pricing-card__price">
-                                    <h2>$79<span>/month</span></h2>
+                                    <h2>$147<span>/month</span></h2>
                                     <p>billed monthly</p>
                                  </div>
                               </div>
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
-                                    <li><i class="fa-solid fa-check"></i> Unlimited users</li>
-                                    <li><i class="fa-solid fa-check"></i> Unlimited contacts</li>
-                                    <li><i class="fa-solid fa-check"></i> Contact management</li>
-                                    <li><i class="fa-solid fa-check"></i> Sales pipeline</li>
+                                    <li><i class="fa-solid fa-check"></i> Pre-configured CRM, ready on day one</li>
+                                    <li><i class="fa-solid fa-check"></i> Done-for-you pipeline setup and maintenance</li>
+                                    <li><i class="fa-solid fa-check"></i> 3 pre-built email templates</li>
+                                    <li><i class="fa-solid fa-check"></i> Unlimited users and contacts</li>
                                     <li><i class="fa-solid fa-check"></i> Calendar integration</li>
-                                    <li><i class="fa-solid fa-check"></i> Basic reporting</li>
-                                    <li><i class="fa-solid fa-check"></i> Email support</li>
+                                    <li><i class="fa-solid fa-check"></i> Basic reporting dashboard</li>
+                                    <li><i class="fa-solid fa-check"></i> Email support (48hr response)</li>
                                  </ul>
                                  <div class="pricing-addons">
                                     <p class="pricing-addons__title">Add-ons:</p>
@@ -100,16 +100,19 @@ $img='assets/images/banner/page-header.png';
                                  <h3>Growing</h3>
                                  <p class="pricing-subtitle">For growing businesses</p>
                                  <div class="pricing-card__price">
-                                    <h2>$199<span>/month</span></h2>
+                                    <h2>$397<span>/month</span></h2>
                                     <p>billed monthly</p>
                                  </div>
                               </div>
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
-                                    <li><i class="fa-solid fa-check"></i> All in Starter</li>
-                                    <li><i class="fa-solid fa-check"></i> 10 hours per month of consulting & hands-on assistance</li>
-                                    <li><i class="fa-solid fa-check"></i> Monthly strategy calls</li>
-                                    <li><i class="fa-solid fa-check"></i> Priority support</li>
+                                    <li><i class="fa-solid fa-check"></i> Everything in Starter</li>
+                                    <li><i class="fa-solid fa-check"></i> 10 hours/month consulting and hands-on build-out</li>
+                                    <li><i class="fa-solid fa-check"></i> Monthly strategy call</li>
+                                    <li><i class="fa-solid fa-check"></i> Up to 3 custom automation workflows and maintenance</li>
+                                    <li><i class="fa-solid fa-check"></i> Landing page setup and maintenance</li>
+                                    <li><i class="fa-solid fa-check"></i> Advanced automations using third-party tools</li>
+                                    <li><i class="fa-solid fa-check"></i> Priority email support (24hr response)</li>
                                  </ul>
                                  <div class="pricing-addons">
                                     <p class="pricing-addons__title">Add-ons:</p>
@@ -129,20 +132,22 @@ $img='assets/images/banner/page-header.png';
                            <div class="pricing-card fade-top">
                               <div class="pricing-card__header">
                                  <h3>Retainer</h3>
-                                 <p class="pricing-subtitle">Your dedicated CRM partner</p>
+                                 <p class="pricing-subtitle">Your dedicated CRM department</p>
                                  <div class="pricing-card__price">
-                                    <h2>$799<span>/month</span></h2>
+                                    <h2>$1,497<span>/month</span></h2>
                                     <p>billed monthly</p>
                                  </div>
                               </div>
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
-                                    <li><i class="fa-solid fa-check"></i> All in Growing</li>
-                                    <li><i class="fa-solid fa-check"></i> 40 hours per month of consulting & hands-on assistance</li>
+                                    <li><i class="fa-solid fa-check"></i> Everything in Growing</li>
+                                    <li><i class="fa-solid fa-check"></i> 40 hours/month consulting and hands-on assistance</li>
                                     <li><i class="fa-solid fa-check"></i> Dedicated CRM consultant</li>
-                                    <li><i class="fa-solid fa-check"></i> Helping you create and maintain workflows</li>
-                                    <li><i class="fa-solid fa-check"></i> Ongoing CRM support & optimization</li>
-                                    <li><i class="fa-solid fa-check"></i> Priority turnaround</li>
+                                    <li><i class="fa-solid fa-check"></i> Unlimited automation workflows and maintenance</li>
+                                    <li><i class="fa-solid fa-check"></i> Unlimited landing pages</li>
+                                    <li><i class="fa-solid fa-check"></i> Monthly strategy call</li>
+                                    <li><i class="fa-solid fa-check"></i> Priority turnaround (same-day response)</li>
+                                    <li><i class="fa-solid fa-check"></i> Quarterly CRM audit and optimization report</li>
                                  </ul>
                                  <div class="pricing-addons">
                                     <p class="pricing-addons__title">Add-ons:</p>
