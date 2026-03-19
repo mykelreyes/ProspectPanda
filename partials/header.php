@@ -31,6 +31,7 @@
                         </div>
                         <div class="navbar__options">
                            <div class="navbar__mobile-options d-none d-sm-flex">
+                              <a href="https://app.prospectpandacrm.com/" class="btn btn--tertiary" target="_blank">Login</a>
                               <a href="https://api.prospectpandacrm.com/widget/bookings/workflow-consultation" class="btn btn--secondary">Book a Call</a>
                            </div>
                            <button class="open-mobile-menu d-flex d-xl-none" aria-label="toggle mobile menu">
@@ -55,7 +56,9 @@
                      </a>
                   </div>
                   <div class="mobile-menu__list"></div>
-                  <div class="mobile-menu__options d-flex d-sm-none justify-content-center nav-fade"></div>
+                  <div class="mobile-menu__options d-flex d-sm-none justify-content-center nav-fade">
+                     <a href="https://app.prospectpandacrm.com/" class="btn btn--tertiary" target="_blank">Login</a>
+                  </div>
                   <div class="mobile-menu__social social nav-fade">
                      <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook">
                         <i class="fa-brands fa-facebook-f"></i>
