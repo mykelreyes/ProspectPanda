@@ -62,7 +62,7 @@ $img='assets/images/banner/page-header.png';
                         <div class="col-12 col-md-6 col-xl-4">
                            <div class="pricing-card fade-top">
                               <div class="pricing-card__header">
-                                 <h3>Starter</h3>
+                                 <h3>Baby Panda</h3>
                                  <p class="pricing-subtitle">Perfect for small teams</p>
                                  <div class="pricing-card__price">
                                     <h2>$147<span>/month</span></h2>
@@ -78,11 +78,12 @@ $img='assets/images/banner/page-header.png';
                                     <li><i class="fa-solid fa-check"></i> Calendar integration</li>
                                     <li><i class="fa-solid fa-check"></i> Basic reporting dashboard</li>
                                     <li><i class="fa-solid fa-check"></i> Email support (48hr response)</li>
+                                    <li><i class="fa-solid fa-check"></i> Free 10,000 emails per month</li>
                                  </ul>
                                  <div class="pricing-addons">
                                     <p class="pricing-addons__title">Add-ons:</p>
                                     <ul class="pricing-features">
-                                       <li><i class="fa-solid fa-plus"></i> Email sending — $0.675 per 1,000 emails</li>
+                                       <li><i class="fa-solid fa-plus"></i> Additional emails beyond monthly limit — $0.675 per 1,000 emails</li>
                                     </ul>
                                  </div>
                                  <div class="section__content-cta">
@@ -97,7 +98,7 @@ $img='assets/images/banner/page-header.png';
                            <div class="pricing-card pricing-card--featured fade-top">
                               <div class="pricing-badge">Most Popular</div>
                               <div class="pricing-card__header">
-                                 <h3>Growing</h3>
+                                 <h3>Teen Panda</h3>
                                  <p class="pricing-subtitle">For growing businesses</p>
                                  <div class="pricing-card__price">
                                     <h2>$397<span>/month</span></h2>
@@ -106,18 +107,19 @@ $img='assets/images/banner/page-header.png';
                               </div>
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
-                                    <li><i class="fa-solid fa-check"></i> Everything in Starter</li>
+                                    <li><i class="fa-solid fa-check"></i> Everything in Baby Panda</li>
                                     <li><i class="fa-solid fa-check"></i> 10 hours/month consulting and hands-on build-out</li>
                                     <li><i class="fa-solid fa-check"></i> Monthly strategy call</li>
                                     <li><i class="fa-solid fa-check"></i> Up to 3 custom automation workflows and maintenance</li>
                                     <li><i class="fa-solid fa-check"></i> Landing page setup and maintenance</li>
                                     <li><i class="fa-solid fa-check"></i> Advanced automations using third-party tools</li>
                                     <li><i class="fa-solid fa-check"></i> Priority email support (24hr response)</li>
+                                    <li><i class="fa-solid fa-check"></i> Free 20,000 emails per month</li>
                                  </ul>
                                  <div class="pricing-addons">
                                     <p class="pricing-addons__title">Add-ons:</p>
                                     <ul class="pricing-features">
-                                       <li><i class="fa-solid fa-plus"></i> Email sending — $0.675 per 1,000 emails</li>
+                                       <li><i class="fa-solid fa-plus"></i> Additional emails beyond monthly limit — $0.675 per 1,000 emails</li>
                                     </ul>
                                  </div>
                                  <div class="section__content-cta">
@@ -131,7 +133,7 @@ $img='assets/images/banner/page-header.png';
                         <div class="col-12 col-md-6 col-xl-4">
                            <div class="pricing-card fade-top">
                               <div class="pricing-card__header">
-                                 <h3>Retainer</h3>
+                                 <h3>Adult Panda</h3>
                                  <p class="pricing-subtitle">Your dedicated CRM department</p>
                                  <div class="pricing-card__price">
                                     <h2>$1,497<span>/month</span></h2>
@@ -140,7 +142,7 @@ $img='assets/images/banner/page-header.png';
                               </div>
                               <div class="pricing-card__body">
                                  <ul class="pricing-features">
-                                    <li><i class="fa-solid fa-check"></i> Everything in Growing</li>
+                                    <li><i class="fa-solid fa-check"></i> Everything in Teen Panda</li>
                                     <li><i class="fa-solid fa-check"></i> 40 hours/month consulting and hands-on assistance</li>
                                     <li><i class="fa-solid fa-check"></i> Dedicated CRM consultant</li>
                                     <li><i class="fa-solid fa-check"></i> Unlimited automation workflows and maintenance</li>
@@ -148,11 +150,12 @@ $img='assets/images/banner/page-header.png';
                                     <li><i class="fa-solid fa-check"></i> Monthly strategy call</li>
                                     <li><i class="fa-solid fa-check"></i> Priority turnaround (same-day response)</li>
                                     <li><i class="fa-solid fa-check"></i> Quarterly CRM audit and optimization report</li>
+                                    <li><i class="fa-solid fa-check"></i> Free 50,000 emails per month</li>
                                  </ul>
                                  <div class="pricing-addons">
                                     <p class="pricing-addons__title">Add-ons:</p>
                                     <ul class="pricing-features">
-                                       <li><i class="fa-solid fa-plus"></i> Email sending — $0.675 per 1,000 emails</li>
+                                       <li><i class="fa-solid fa-plus"></i> Additional emails beyond monthly limit — $0.675 per 1,000 emails</li>
                                     </ul>
                                  </div>
                                  <div class="section__content-cta">
