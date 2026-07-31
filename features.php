@@ -3,6 +3,8 @@
 
 <?php
 $title='Features - ProspectPanda CRM';
+$description='ProspectPanda CRM features: lead tracking, sales pipelines, automated follow-ups, and analytics built to help your business close more deals.';
+$canonical='https://prospectpandacrm.com/features.php';
 $Title='Home';
 $Title2='Features';
 $img='assets/images/banner/page-header.png';

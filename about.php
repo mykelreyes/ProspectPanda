@@ -3,6 +3,8 @@
 
 <?php
 $title='About Us - ProspectPanda CRM';
+$description='Meet ProspectPanda: done-for-you CRM and automation for small businesses. Spend less time on admin and more time closing deals. Learn our story.';
+$canonical='https://prospectpandacrm.com/about.php';
 $Title='Home';
 $Title2='About Us';
 $img='assets/images/banner/page-header.png';

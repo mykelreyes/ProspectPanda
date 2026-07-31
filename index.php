@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php $title='ProspectPanda - Modern CRM for Growing Businesses'?>
+<?php
+$title='ProspectPanda - Modern CRM for Growing Businesses';
+$description='ProspectPanda is a modern, GoHighLevel-powered CRM that helps growing businesses automate follow-ups, track leads, and close more deals. Book a free demo.';
+$canonical='https://prospectpandacrm.com/';
+?>
 <?php include './partials/head.php'?>
 
 <body>

@@ -3,6 +3,8 @@
 
 <?php
 $title='Contact Us - ProspectPanda CRM';
+$description='Contact ProspectPanda to book a free CRM demo or ask about plans. Email info@prospectpandacrm.com and start automating your sales pipeline today.';
+$canonical='https://prospectpandacrm.com/contact.php';
 $Title='Home';
 $Title2='Contact Us';
 $img='assets/images/banner/page-header.png';

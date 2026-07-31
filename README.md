@@ -339,3 +339,9 @@ This project uses a premium template. Ensure you have proper licensing before de
 Your ProspectPanda CRM website is ready to go! Simply follow the setup instructions above and start customizing to match your brand.
 
 **Happy Building! 🐼**
+
+<!-- kg-related:start -->
+## Related
+
+- [[02 Areas/ProspectPanda/Website_v2/PROJECT_STATUS.md|PROJECT_STATUS]]  (0.97)
+<!-- kg-related:end -->

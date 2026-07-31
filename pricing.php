@@ -3,6 +3,8 @@
 
 <?php
 $title='Pricing - ProspectPanda CRM';
+$description='ProspectPanda CRM pricing: simple, flexible plans for small teams and growing businesses, from a starter tier to a fully managed CRM department.';
+$canonical='https://prospectpandacrm.com/pricing.php';
 $Title='Home';
 $Title2='Pricing';
 $img='assets/images/banner/page-header.png';

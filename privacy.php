@@ -3,6 +3,8 @@
 
 <?php
 $title='Privacy Policy - ProspectPanda CRM';
+$description='ProspectPanda Privacy Policy explains what data we collect, how we use it, and your rights when using our CRM platform.';
+$canonical='https://prospectpandacrm.com/privacy.php';
 $Title='Home';
 $Title2='Privacy Policy';
 $img='assets/images/banner/page-header.png';
@@ -63,7 +65,7 @@ $img='assets/images/banner/page-header.png';
                            <div class="terms-content">
 
                               <div class="terms-header">
-                                 <h1 class="title title-anim">Privacy Policy</h1>
+                                 <h2 class="title title-anim">Privacy Policy</h2>
                                  <p class="terms-meta">Last updated: March 17, 2026</p>
                                  <p>ProspectPanda ("ProspectPanda," "we," "us," and "our") respects your privacy and is committed to protecting it through compliance with this Privacy Policy. This Privacy Policy describes how we collect and use your personal information when you visit our website, use our platform, communicate with us, or otherwise interact with our services (collectively, the "Platform").</p>
                                  <p>By using the Platform, you agree to the collection and use of your information as described in this Privacy Policy. If you do not agree, do not use the Platform.</p>

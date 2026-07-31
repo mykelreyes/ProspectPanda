@@ -3,6 +3,8 @@
 
 <?php
 $title='Terms of Service - ProspectPanda CRM';
+$description='ProspectPanda Terms of Service govern your use of our CRM platform, including accounts, billing, and acceptable use.';
+$canonical='https://prospectpandacrm.com/terms.php';
 $Title='Home';
 $Title2='Terms of Service';
 $img='assets/images/banner/page-header.png';
@@ -61,7 +63,7 @@ $img='assets/images/banner/page-header.png';
                            <div class="terms-content">
 
                               <div class="terms-header">
-                                 <h1 class="title title-anim">Terms of Service</h1>
+                                 <h2 class="title title-anim">Terms of Service</h2>
                                  <p class="terms-meta">Last updated: March 17, 2026</p>
                                  <p>These Terms of Service govern your use of the ProspectPanda CRM platform and all related services. By creating an account or using ProspectPanda in any way, you agree to be bound by these Terms. If you do not agree, do not use the platform.</p>
                                  <p class="terms-notice">THIS AGREEMENT CONTAINS A DISPUTE RESOLUTION CLAUSE. YOU MUST REVIEW THIS DOCUMENT IN ITS ENTIRETY BEFORE USING THE PLATFORM.</p>

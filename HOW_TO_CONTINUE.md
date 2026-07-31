@@ -143,3 +143,11 @@ Read PROJECT_STATUS.md in C:\Users\Administrator\Documents\MEGA\ProspectPanda\
 **Last Updated:** January 8, 2026
 **Progress:** ~30% Complete
 **Next Step:** Copy partials folder and build website pages
+
+<!-- kg-related:start -->
+## Related
+
+- [[02 Areas/ProspectPanda/Website_v2/PROJECT_STATUS.md|PROJECT_STATUS]]  (0.92)
+- [[02 Areas/ProspectPanda/Website_v2/README.md|README]]  (0.91)
+- [[02 Areas/Personal/AI OS Offer/2026-05-23-prospectpanda-ai-os-offer-plan.md|2026-05-23-prospectpanda-ai-os-offer-plan]]  (0.89)
+<!-- kg-related:end -->

@@ -5,7 +5,7 @@
         <div class="row gaper align-items-center">
         <div class="col-12 col-lg-5 col-xl-7">
             <div class="text-center text-lg-start">
-                <h2 class="title title-anim"><?php echo $Title2;?></h2>
+                <h1 class="title title-anim"><?php echo $Title2;?></h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                     <li class="breadcrumb-item">
